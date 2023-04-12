@@ -1,0 +1,3 @@
+[submodule "my-new-website"]
+    path = my-new-website
+    url = https://github.com/Vera-Wu19/my-new-website-repo.git
