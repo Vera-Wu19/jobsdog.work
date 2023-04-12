@@ -2,5 +2,8 @@
   "dependencies": {
     "openai": "^3.2.1",
     "react-router-dom": "^6.9.0"
+  },
+  "scripts": {
+    "build": "cd my-new-website && npm run build"
   }
 }
