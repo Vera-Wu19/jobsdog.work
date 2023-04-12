@@ -1,3 +1,18 @@
 {
-  "rootDirectory": "my-new-website"
+  "version": 2,
+  "builds": [
+    {
+      "src": "my-new-website/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "build"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "my-new-website/$1"
+    }
+  ]
 }
